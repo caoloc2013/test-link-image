@@ -1,7 +1,8 @@
-console.log(Push)
+console.log(window.location.origin+'/logo.svg')
+const test =window.location.origin+'/logo.svg'
 Push.create("Hello world!", {
     body: "How's it hangin'?",
-    icon: window.location.origin+'/logo.svg',
+    icon: test,
     timeout: 4000,
     onClick: function () {
         window.focus();
